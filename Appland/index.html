@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Description of your website">
+  <meta name="keywords" content="keywords, for, SEO">
+
+  <title>SKR Project - Register Student</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="font.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    /* Additional styles for animation and layout adjustments */
+    .features .icon-box {
+      background: #fff;
+      padding: 30px;
+      box-shadow: 0 0 30px rgba(67, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+      border-radius: 10px;
+    }
+
+    .features .icon-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 40px rgba(67, 0, 0, 0.2);
+    }
+
+    #hero {
+      background: url('assets/img/hero-bg.jpg') center center no-repeat;
+      background-size: cover;
+      padding: 100px 0;
+    }
+
+    #hero .card {
+      border-radius: 15px;
+      box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    #hero .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    #hero .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+
+    #hero .form-control {
+      border-radius: 5px;
+    }
+
+    #hero .form-label {
+      font-weight: bold;
+    }
+
+    #navbar ul li a {
+      color: #0011fd;
+    }
+
+    #navbar ul li a:hover {
+      color: #00ccff;
+    }
+
+    .navbar .getstarted {
+      background-color: #00a2ff;
+      color: #000;
+      border-radius: 50px;
+      padding: 10px 25px;
+    }
+
+    .navbar .getstarted:hover {
+      background-color: #00ffff;
+    }
+
+    .section-title h2 {
+      font-size: 2.5em;
+      color: #444;
+    }
+
+    .section-title p {
+      font-size: 1.2em;
+      color: #666;
+    }
+  </style>
+  
+</head>
+
+<body>
+  <section id="batman" >
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1 style="color: #007bff;">มาเริ่มรับชมผลงานจาก<br>โรงเรียนสกลราชวิทยานุกูล</h1>
+          <p style="color: #1f2022;">โปรเจกต์นี้คือการพัฒนาระบบตรวจสอบรูปภาพสมัครนักเรียนด้วยการใช้ปัญญาประดิษฐ์ (AI) เพื่อต่อยอดการใช้งานได้หลากหลาย</p>
+          <div class="d-flex">
+            <li><a class="getstarted scrollto" href="#cat" style="color: #007bff;">Get Started</a></li>
+            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src="img/cat.png" class="img-fluid animated" alt="A playful cat">
+        </div>
+      </div>
+    </div>
+    
+
+  </section><!-- /Hero Section -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+        <h1><a href="index.html">Register Student</a></h1>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#batman">Home</a></li>
+          <li><a class="nav-link scrollto" href="#features">Project</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="#cat">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Features Section ======= -->
+  <section id="features" class="features">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>กลุ่มเป้าหมายของ Project นี้</h2>
+        <p>เป้าหมายของโปรเจกต์นี้คือการพัฒนาระบบตรวจสอบรูปภาพสมัครนักเรียนด้วยการใช้ปัญญาประดิษฐ์ (AI) เพื่อช่วยเพิ่มประสิทธิภาพและความถูกต้องในกระบวนการรับสมัครของโรงเรียน โดยกลุ่มเป้าหมายประกอบด้วยผู้บริหารโรงเรียนและทีมงานที่เกี่ยวข้องทุกระดับ ตั้งแต่บุคลากรทางการศึกษาจนถึงทีมที่ดูแลกระบวนการรับสมัครนักเรียน เช่น เจ้าหน้าที่ทะเบียน, ผู้ช่วยทางการศึกษา และผู้ปกครองของนักเรียนที่สนใจสมัครเข้าโรงเรียน
+
+          ระบบ AI ที่ถูกพัฒนาขึ้นจะมีประสิทธิภาพในการตรวจสอบความถูกต้องของรูปภาพที่ใช้ในการสมัคร เช่น ตรวจสอบคุณภาพของรูปถ่ายและความเหมาะสมต่อเนื้อหาที่กำหนดไว้ ระบบยังสามารถตรวจสอบความถูกต้องของข้อมูลพื้นฐานอื่น ๆ ที่เกี่ยวข้อง ที่ต้องการส่งเพื่อเสริมข้อมูลการสมัคร</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-receipt"></i></div>
+            <h4 class="title">การประมวลผลที่เร็วขึ้น</h4>
+            <p class="description">การใช้ระบบ AI ในการตรวจสอบรูปภาพและข้อมูลสมัครจะช่วยลดเวลาในกระบวนการตรวจสอบที่ต้องการมนุษย์ในการดำเนินการเดียวกัน</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-images"></i></div>
+            <h4 class="title">ความถูกต้องของข้อมูล</h4>
+            <p class="description">ระบบ AI สามารถตรวจสอบข้อมูลอย่างละเอียดและมีความแม่นยำในการตรวจสอบรูปภาพและเอกสารสมัคร</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-shield"></i></div>
+            <h4 class="title">ลดความผิดพลาด</h4>
+            <p class="description">การใช้ AI ช่วยลดความผิดพลาดที่อาจเกิดขึ้นจากกระบวนการตรวจสอบแบบดั้งเดิมที่อาจมีความผิดพลาดโดยไม่ตั้งใจ</p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-id-card"></i></div>
+            <h4 class="title">เพิ่มประสิทธิภาพในการจัดการ</h4>
+            <p class="description">การใช้เทคโนโลยี AI ในกระบวนการรับสมัครช่วยเพิ่มประสิทธิภาพในการจัดการข้อมูลและลดภาระงานของทีมงาน</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Features Section -->
+
+  <div class="container" id="cat">
+    <div class="row">
+      <div class="col-md-6 mx-auto mt-5" data-aos="fade-up">
+        <div class="card">
+          <div class="card-header text-center">
+            <h4>Register Student</h4>
+          </div>
+          <div class="card-body">
+            <form id="uploadForm">
+              <div class="mb-3">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" required>
+              </div>
+              <div class="mb-3">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+              <div class="mb-3">
+                <label for="id" class="form-label">รหัสบัตรประชาชน</label>
+                <input type="text" class="form-control" id="id" required>
+              </div>
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Choose Student Photo</label>
+                <input class="form-control" type="file" id="formFile" accept="image/*" required>
+                <img id="uploadedImage" class="img-fluid mt-3" style="display: none;" />
+              </div>
+              <div class="mb-3">
+                <label for="token" class="form-label">Token</label>
+                <input type="text" class="form-control" id="token" required>
+              </div>
+              <button type="submit" class="btn btn-primary w-100">Upload</button>
+            </form>
+            <div id="message" class="mt-3 text-center"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+<!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= App Features Section ======= --><!-- End App Features Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>คณะผู้จัดทำ นาย ธีธัช บัวพรม ชั้นมัธยมศึกษาปีที่ 5/17 จากโรงเรียนสกลราชวิทยานุกูล</p>
+          <p>คณะผู้จัดทำ นาย ฉัตรชัย แสนปัดสี ชั้นมัธยมศึกษาปีที่ 5/17 จากโรงเรียนสกลราชวิทยานุกูล</p>
+          <p>ครูที่ปรึกษา Project</p>
+          <p>นายรณกฤต แสนพรหม จากโรงเรียนสกลราชวิทยานุกูล</p>
+        </div>
+        
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-4 info">
+                <i class="bx bx-map"></i>
+                <h4>Address</h4>
+                <p>ที่อยู่: 55C2+93H 74/26,<br> ใสสว่าง ถนน ใสสว่าง ตำบลธาตุเชิงชุม อำเภอเมืองสกลนคร สกลนคร 47000</p>
+              </div>
+              <div class="col-lg-4 info">
+                <i class="bx bx-phone"></i>
+                <h4>Call Us</h4>
+                <p>0933294797<br>0927765899<br>0893546242</p>
+              </div>
+              <div class="col-lg-4 info">
+                <i class="bx bx-envelope"></i>
+                <h4>Email Us</h4>
+                <p>plumjai888@gmail.com<br>title1234563@gmail.com<br>ronnakit@sakolraj.ac.th</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1906.0070819162906!2d104.14768688168621!3d17.169522147198187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313c8cd5d12e5ec9%3A0xa0b519ee3288ee45!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4Liq4LiB4Lil4Lij4Liy4LiK4Lin4Li04LiX4Lii4Liy4LiZ4Li44LiB4Li54Lil!5e0!3m2!1sth!2sth!4v1719058230728!5m2!1sth!2sth" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section><!-- End Contact Section -->
+    <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="credits">
+            &copy;Sakolraj <strong><span>wittayanukul </span></strong>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    // Preview uploaded image
+    $('#formFile').on('change', function() {
+      var reader = new FileReader();
+      reader.onload = function(e) {
+        $('#uploadedImage').attr('src', e.target.result).show();
+      }
+      reader.readAsDataURL(this.files[0]);
+    });
+
+    // Form submission handling
+    $('#uploadForm').on('submit', function(e) {
+      e.preventDefault();
+
+      var formData = new FormData();
+      formData.append('file', $('#formFile')[0].files[0]);
+      var token = $('#token').val();
+
+      $.ajax({
+        url: 'https://ai.hwp.in.th/pred',
+        type: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + token
+        },
+        data: formData,
+        contentType: false,
+        processData: false,
+        success: function(response) {
+          var pred = response.data.pred;
+          var percentage = (pred * 100).toFixed(2) + '%';
+          var message = '';
+
+          if (pred > 0.9) {
+            message = '<div class="alert alert-success">รูปของท่านสามารถนำไปใช้ทางเอกสารราชการ (' + percentage + ')</div>';
+          } else if (pred > 0.8) {
+            message = '<div class="alert alert-success">รูปของท่านผ่านการตรวจสอบแล้ว (' + percentage + ')</div>';
+          } else {
+            message = '<div class="alert alert-danger">รูปของท่านยังไม่ผ่าน กรุณาลองอีกครั้ง (' + percentage + ')</div>';
+          }
+
+          $('#message').html(message);
+          console.log(response);
+        },
+        error: function(xhr, status, error) {
+          var errorMessage = 'รูปของท่านยังไม่ผ่าน กรุณาลองอีกครั้ง';
+
+          if (xhr.status === 0) {
+            errorMessage = 'ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้. กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ.';
+          } else if (xhr.status >= 500 && xhr.status < 600) {
+            errorMessage = 'เกิดข้อผิดพลาดในเซิร์ฟเวอร์. กรุณาลองใหม่ในภายหลัง.';
+          } else if (xhr.status >= 400 && xhr.status < 500) {
+            errorMessage = 'เกิดข้อผิดพลาดในการร้องขอ. กรุณาตรวจสอบข้อมูลและลองใหม่.';
+          }
+
+          $('#message').html('<div class="alert alert-danger">' + errorMessage + '</div>');
+          console.error(xhr.responseText);
+        }
+      });
+    });
+  });
+</script>
+
+</script>
+  
+</body>
+
+</html>
